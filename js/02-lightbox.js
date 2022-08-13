@@ -26,5 +26,6 @@ function createItems(item) {
 const lightbox = new SimpleLightbox(".gallery a", {
 	captionsData: "alt",
 	captionDelay: 250,
-	captionType: "alt",
-});
+	animationSpeed: 250,
+	fadeSpeed: 500,
+	});
